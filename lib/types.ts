@@ -1,49 +1,44 @@
-// ======================================
-// TYPES FOR ALASKA OS — FULL + FINAL SET
-// ======================================
+// =========================
+// Alaska OS — Global Types
+// =========================
 
-// --------------------------
-// PORT TYPE
-// --------------------------
+// ---- PORT ----
 export interface Port {
-  id: string;               // unique ID
-  name: string;             // "Juneau"
-  slug: string;             // "juneau"
-  tagline?: string;         // optional tagline for hero
-  image: string;            // hero image URL
-  description?: string;     // optional longer description
+  id: string;
+  name: string;
+  slug: string;
+  tagline?: string;      // short marketing tagline
+  image: string;         // hero image
+  description?: string;  // long description
 }
 
-// --------------------------
-// TOUR TYPE
-// --------------------------
+// ---- TOUR ----
 export interface Tour {
   id: string;
+  slug: string;
   title: string;
+  description_short: string;
+  description_long: string;
+  duration: string;
   price_range: string;
-  duration?: string;
-  description?: string;
+
+  // Optional stuff
   image?: string;
   locations?: string[];
-  operator?: string;        // operator slug
+  operator?: string;        // operator_id reference
 }
 
-// --------------------------
-// OPERATOR TYPE — FINAL VERSION
-// Matching EXACTLY what the build error showed
-// --------------------------
+// ---- OPERATOR ----
 export interface Operator {
-  id: string;               // "juneau_adventure_tours"
+  id: string;               // unique ID
   name: string;             // "Juneau Adventure Tours"
-  slug: string;             // "juneau-adventure-tours"
-  description: string;      // long description
-  image: string;            // operator main image/logo
-  ports: string[];          // array of supported ports
+  description: string;      // operator description
+  image: string;            // hero image
+  ports: string[];          // supported ports slugs
 
-  // Required for FareHarbor integrations:
-  fh_shortname: string;     // FareHarbor company shortname
-  embed_base_url: string;   // embed URL prefix for tours
+  fh_shortname: string;     // fareharbor shortname
+  embed_base_url: string;   // embed base url
 
-  // For "Call To Book" component
-  contact_phone: string;    // "(907) 555-1234"
+  contact_phone: string;    // displayed in CallToBook
 }
+
