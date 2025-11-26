@@ -12,18 +12,17 @@ export interface Port {
 
 
 
-// =====================
-// OPERATOR TYPE
-// =====================
 export interface Operator {
   id: string;
   name: string;
   description: string;
-  image: string;
+  ports: string[];
   fh_shortname: string;
   embed_base_url: string;
   contact_phone: string;
+  image?: string;   // <-- FIXED: now optional
 }
+
 
 
 
