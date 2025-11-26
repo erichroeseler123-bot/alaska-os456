@@ -2,10 +2,12 @@ const path = require('path');
 
 module.exports = {
   experimental: {
-    turbopack: false  // Disable Turbopack to ensure aliases work reliably
+    turbo: {
+      enabled: false  // Disable Turbopack
+    }
   },
   webpack: (config) => {
-    config.resolve.alias['@'] = path.resolve(__dirname);
+    config.resolve.alias['@'] = path.resolve(__dirname, '.');
     return config;
   }
 };
