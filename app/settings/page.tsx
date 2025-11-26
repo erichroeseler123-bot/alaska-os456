@@ -1,21 +1,33 @@
 import Link from "next/link";
-import ports from "../data/ports.json";
+import ports from "../../data/ports.json";   // FIXED PATH
 
-export default function Home() {
+export default function SettingsPage() {
   return (
-    <main className="min-h-screen bg-slate-950 text-slate-50 p-8">
-      <h1 className="text-3xl font-bold mb-6">Welcome to Alaska Tours</h1>
-      <p className="mb-4 text-slate-300">Explore Alaska’s cruise ports:</p>
+    <main className="p-6 space-y-6 text-slate-200">
+      <h1 className="text-2xl font-bold">Alaska OS — Settings</h1>
 
-      <ul className="space-y-2">
-        {ports.map((p) => (
-          <li key={p.id}>
-            <Link className="text-emerald-300 hover:underline" href={`/port/${p.id}`}>
-              {p.name}
-            </Link>
-          </li>
-        ))}
-      </ul>
+      <section className="space-y-3">
+        <h2 className="text-xl font-semibold">Available Ports (from ports.json)</h2>
+
+        <div className="grid gap-3">
+          {ports.map((p: any) => (
+            <div
+              key={p.slug}
+              className="rounded-lg border border-slate-700 bg-slate-900/60 p-4"
+            >
+              <p className="text-lg font-semibold">{p.name}</p>
+              <p className="text-sm text-slate-400">{p.tagline}</p>
+
+              <Link
+                href={`/port/${p.slug}`}
+                className="text-emerald-300 text-sm hover:underline mt-2 inline-block"
+              >
+                View Port →
+              </Link>
+            </div>
+          ))}
+        </div>
+      </section>
     </main>
   );
 }
