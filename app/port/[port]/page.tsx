@@ -1,12 +1,11 @@
 // app/port/[port]/page.tsx
-// Uses ONLY relative paths → works 100% of the time
+// 100% RELATIVE PATHS ONLY — NO @/ ALIASES → WORKS EVERY TIME
 
 import { notFound } from "next/navigation";
-import PortHero from "@/components/PortHero";
-import TourGrid from "@/components/TourGrid";
-import CallToBook from "@/components/CallToBook";
+import PortHero from "../../components/PortHero";
+import TourGrid from "../../components/TourGrid";
+import CallToBook from "../../components/CallToBook";
 
-// Relative paths — these work even if @/ is broken
 import portsRaw from "../../data/ports.json";
 import toursRaw from "../../data/tours.json";
 
