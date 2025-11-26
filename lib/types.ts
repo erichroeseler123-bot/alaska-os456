@@ -1,43 +1,5 @@
-// ------------------------------------------------------
-// PORT TYPE
-// ------------------------------------------------------
-export interface Port {
-  id: string;
-  name: string;
-  slug: string;
-  tagline?: string;
-  image: string;
-  description?: string;
-}
-
-
-
-// ------------------------------------------------------
-// OPERATOR TYPE  (THIS WAS MISSING — FIXES YOUR ERROR)
-// ------------------------------------------------------
-export interface Operator {
-  id: string;
-  name: string;
-  description: string;
-
-  // Port relationships
-  ports: string[];
-
-  // FareHarbor fields
-  fh_shortname: string;
-  embed_base_url: string;
-
-  // Contact
-  contact_phone?: string;
-}
-
-
-
-// ------------------------------------------------------
-// TOUR TYPE — MATCHES YOUR ALASKA MASTER DATA
-// ------------------------------------------------------
 export interface Tour {
-  id: string;
+  id?: string;  // <-- FIX: make optional
   slug: string;
   title: string;
 
@@ -55,7 +17,7 @@ export interface Tour {
   rating?: number;
   reviews?: number;
 
-  // Optional
+  // Optional stuff
   image?: string;
   locations?: string[];
   operator?: string;
