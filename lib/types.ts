@@ -1,28 +1,25 @@
+// lib/types.ts
+
 // ============================
 // PORTS
 // ============================
 export interface Port {
   id: string;
   name: string;
-  slug: string;
+  slug: string;        // required – we generate it if missing
   tagline?: string;
-  image: string;
+  image: string;       // required – we provide default in dataLoader
   description?: string;
 }
-
 
 // ============================
 // TOURS
 // ============================
-// Matches real JSON. ALL optional except slug + title.
 export interface Tour {
   id?: string;
   slug: string;
   title: string;
-
-  // 🔥 Required fix — optional because many tours have no price_range
-  price_range?: string;
-
+  price_range?: string;     // ← this was killing your build before
   duration?: string;
   description_short?: string;
   description_long?: string;
@@ -31,21 +28,16 @@ export interface Tour {
   operator?: string;
 }
 
-
 // ============================
-// OPERATORS — MATCHES YOUR REAL DATA
+// OPERATORS
 // ============================
 export interface OperatorData {
   id: string;
   name: string;
   description: string;
   ports: string[];
-
-  // Optional in JSON
   fh_shortname?: string;
   embed_base_url?: string;
-
-  // Optional fields — previously broke build
   contact_phone?: string;
   image?: string;
 }
