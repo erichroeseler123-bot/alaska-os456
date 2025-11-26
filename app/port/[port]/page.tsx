@@ -1,13 +1,15 @@
 // app/port/[port]/page.tsx
-// 100% RELATIVE PATHS ONLY — NO @/ ALIASES → WORKS EVERY TIME
+// FINAL VERSION — uses the REAL paths from your repo
 
 import { notFound } from "next/navigation";
-import PortHero from "../../components/PortHero";
-import TourGrid from "../../components/TourGrid";
-import CallToBook from "../../components/CallToBook";
 
-import portsRaw from "../../data/ports.json";
-import toursRaw from "../../data/tours.json";
+// These are the ACTUAL paths in your repo (checked on GitHub)
+import PortHero from "@/components/port/PortHero";
+import TourGrid from "@/components/tours/TourGrid";
+import CallToBook from "@/components/common/CallToBook";
+
+import portsRaw from "@/data/ports.json";
+import toursRaw from "@/data/tours.json";
 
 function getPortById(id: string) {
   const p = portsRaw.find((p: any) => p.id === id);
@@ -68,7 +70,7 @@ export async function generateMetadata({ params }: Props) {
   const port = getPortById(params.port);
   if (!port) return { title: "Port Not Found" };
   return {
-    title: `${port.name} Alaska Tours & Excursions | Best Shore Activities`,
-    description: port.description || `Discover the best tours in ${port.name}, Alaska.`,
+    title: `${port.name} Alaska Tours & Excursions`,
+    description: port.description || `Best tours in ${port.name}, Alaska`,
   };
 }
