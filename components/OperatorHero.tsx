@@ -1,4 +1,7 @@
-import { Operator } from '../lib/types';
+// components/OperatorHero.tsx
+
+import Link from "next/link";
+import { Operator } from "../lib/types";
 
 interface Props {
   operator: Operator;
@@ -6,10 +9,27 @@ interface Props {
 
 export default function OperatorHero({ operator }: Props) {
   return (
-    <section className="space-y-3">
-      <p className="text-xs uppercase tracking-[0.25em] text-emerald-300/70">Operator Profile</p>
-      <h1 className="text-3xl sm:text-4xl font-semibold">{operator.name}</h1>
-      <p className="text-sm sm:text-base text-slate-300 max-w-2xl">{operator.description}</p>
-    </section>
+    <div style={{ padding: "20px", background: "#002332", borderRadius: "10px" }}>
+      <h2 style={{ color: "#fff", marginBottom: "10px" }}>{operator.name}</h2>
+      {operator.description && (
+        <p style={{ color: "white", opacity: 0.8 }}>{operator.description}</p>
+      )}
+
+      {operator.website && (
+        <a
+          href={operator.website}
+          style={{
+            display: "inline-block",
+            marginTop: "15px",
+            padding: "10px 15px",
+            background: "#0aa",
+            color: "white",
+            borderRadius: "6px",
+          }}
+        >
+          Visit Website
+        </a>
+      )}
+    </div>
   );
 }
