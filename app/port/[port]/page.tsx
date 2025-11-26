@@ -1,33 +1,55 @@
+// app/port/[port]/page.tsx
+
 import { notFound } from "next/navigation";
-import { getPortById, getToursForPort, getOperatorById, generateSchema } from "../../../lib/dataLoader";
-import PortHero from "../../../components/PortHero";
-import TourCard from "../../../components/TourCard";
+import { getPortById, getToursForPort } from "@/lib/dataLoader";
+import PortHero from "@/components/PortHero";
+import TourGrid from "@/components/TourGrid";
+import CallToBook from "@/components/CallToBook";
 
-export default async function PortPage({ params }) {
-  const { port } = await params;
+interface Props {
+  params: { port: string };
+}
 
-  const portData = getPortById(port);
-  if (!portData) notFound();
+export default function PortPage({ params }: Props) {
+  const portId = params.port;
 
-  const tours = getToursForPort(port);
-  const schema = generateSchema("port", portData);
+  const port = getPortById(portId);
+  if (!port) return notFound();
+
+  const tours = getToursForPort(portId);
 
   return (
-    <main className="min-h-screen bg-slate-950 text-slate-50 p-8">
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />
-
-      <PortHero port={portData} />
-
-      <section className="mt-8 space-y-4">
-        <h2 className="text-xl font-semibold">Featured Tours in {portData.name}</h2>
-        <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-          {tours.map((tour) => {
-            const operator = getOperatorById(tour.operator_id);
-            if (!operator) return null;
-            return <TourCard key={tour.slug} tour={tour} operator={operator} />;
-          })}
+    <>
+      <PortHero port={port} />
+      
+      <section className="max-w-7xl mx-auto px-4 py-12">
+        <h2 className="text-3xl md:text-4xl font-bold text-center mb-10">
+          Top Tours & Activities in {port.name}
+        </h2>
+        
+        {tours.length > 0 ? (
+          <TourGrid tours={tours} />
+        ) : (
+          <p className="text-center text-gray-600 text-lg">
+            No tours available yet for {port.name}. Check back soon!
+          </p>
+        )}
+        
+        <div className="mt-16">
+          <CallToBook portName={port.name} />
         </div>
       </section>
-    </main>
+    </>
   );
+}
+
+// Optional: Generate dynamic metadata
+export async function generateMetadata({ params }: Props) {
+  const port = getPortById(params.port);
+  if (!port) return { title: "Port Not Found" };
+
+  return {
+    title: `${port.name} Alaska Tours & Excursions | Best Shore Activities`,
+    description: port.description || `Discover the best tours and shore excursions in ${port.name}, Alaska.`,
+  };
 }
