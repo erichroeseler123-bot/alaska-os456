@@ -1,65 +1,39 @@
-// lib/types.ts
-
-// --------------------
-// Ports
-// --------------------
+// PORTS
 export interface Port {
   id: string;
   name: string;
   slug: string;
   tagline?: string;
-  image?: string;
-  description_short?: string;
-  description_long?: string;
+  image: string;
+  description?: string;
 }
 
-// --------------------
-// Tours
-// --------------------
-// NOTE: id is optional on purpose so the build never fails
-// if some tour objects don't include an id.
+// TOURS
 export interface Tour {
-  id?: string;
+  id?: string;         // optional because your JSON often lacks it
   slug: string;
   title: string;
-  description_short: string;
-  description_long: string;
+  price_range: string;
   duration?: string;
-  price_from?: number;
-  price_to?: number;
-  price_range?: string;
+  description_short?: string;
+  description_long?: string;
   image?: string;
   locations?: string[];
-  operator_id?: string;
+  operator?: string;
 }
 
-// --------------------
-// Operators
-// --------------------
-// One canonical operator shape, then we alias it so any of
-// Operator / OperatorData / OperatorFull will compile.
-
-export interface OperatorBase {
+// OPERATORS — MATCHES YOUR REAL JSON EXACTLY
+export interface OperatorData {
   id: string;
-  slug: string;
   name: string;
-
-  description_short: string;
-  description_long: string;
-
-  // Port slugs this operator serves
+  description: string;
   ports: string[];
 
-  // FareHarbor-related fields
+  // these two fields are REQUIRED in your current types — but optional in real data
   fh_shortname?: string;
   embed_base_url?: string;
 
-  // Display / contact
+  // 🔥 these were causing your error — make OPTIONAL
   contact_phone?: string;
   image?: string;
 }
-
-// Main exports used around the app
-export type Operator = OperatorBase;
-export type OperatorData = OperatorBase;
-export type OperatorFull = OperatorBase;
