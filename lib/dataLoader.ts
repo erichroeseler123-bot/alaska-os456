@@ -41,7 +41,7 @@ export function getToursForPort(portId: string): Tour[] {
   return toursRaw
     .filter((t: any) => t.locations?.includes(portId))
     .map((t: any) => ({
-      id: t.id ?? `\( {t.slug}- \){portId}`,
+      id: t.id ?? `\( {t.slug}- \){portId}`,           // ← FIXED THIS LINE
       slug: t.slug,
       title: t.title,
       price_range: t.price_range ?? undefined,
@@ -91,6 +91,54 @@ export function getOperatorById(id: string): OperatorData | null {
 export function getToursForOperator(operatorId: string): Tour[] {
   return toursRaw
     .filter((t: any) => t.operator === operatorId)
+    .map((t: any) => ({
+      id: t.id ?? t.slug,
+      slug: t.slug,
+      title: t.title,
+      price_range: t.price_range ?? undefined,
+      duration: t.duration ?? undefined,
+      description_short: t.description_short ?? undefined,
+      description_long: t.description_long ?? undefined,
+      image: t.image ?? "/img/default-tour.jpg",
+      locations: t.locations ?? [],
+      operator: t.operator ?? undefined,
+    }));
+}
+
+// ————————————————————————
+// SINGLE TOUR BY SLUG
+// ————————————————————————
+export function getTourBySlug(slug: string): Tour | null {
+  const t = toursRaw.find((x: any) => x.slug === slug);
+  if (!t) return null;
+
+  return {
+    id: t.id ?? t.slug,
+    slug: t.slug,
+    title: t.title,
+    price_range: t.price_range ?? undefined,
+    duration: t.duration ?? undefined,
+    description_short: t.description_short ?? undefined,
+    description_long: t.description_long ?? undefined,
+    image: t.image ?? "/img/default-tour.jpg",
+    locations: t.locations ?? [],
+    operator: t.operator ?? undefined,
+  };
+}
+
+// ————————————————————————
+// RELATED TOURS
+// ————————————————————————
+export function getRelatedTours(tour: Tour, limit = 4): Tour[] {
+  if (!tour.locations || tour.locations.length === 0) return [];
+
+  return toursRaw
+    .filter(
+      (t: any) =>
+        t.slug !== tour.slug &&
+        t.locations?.some((loc: string) => tour.locations?.includes(loc))
+    )
+    .slice(0, limit)
     .map((t: any) => ({
       id: t.id ?? t.slug,
       slug: t.slug,
