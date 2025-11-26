@@ -7,14 +7,16 @@ export interface Port {
   id: string;
   name: string;
   slug: string;
-  tagline?: string;      // short marketing tagline
-  image: string;         // hero image
-  description?: string;  // long description
+  tagline?: string;
+  image: string;
+  description?: string;
 }
 
 // ---- TOUR ----
 export interface Tour {
   id: string;
+
+  // REQUIRED BY UI + SEEN IN BUILD LOG
   slug: string;
   title: string;
   description_short: string;
@@ -22,25 +24,27 @@ export interface Tour {
   duration: string;
   price_range: string;
 
-  // Optional fields
+  // Optional image
   image?: string;
+
+  // Optional extras
   locations?: string[];
-  operator?: string;        // operator_id reference
+  operator?: string; // operator id reference
 }
 
 // ---- OPERATOR ----
 export interface Operator {
-  id: string;               // unique ID
-  name: string;             // "Juneau Adventure Tours"
-  description: string;      // operator description
+  id: string;
+  name: string;
+  description: string;
 
-  // NOTE: make image OPTIONAL so build passes
+  // Optional, because your dataset rarely includes images
   image?: string;
 
-  ports: string[];          // supported ports slugs
+  ports: string[];
 
-  fh_shortname: string;     // fareharbor shortname
-  embed_base_url: string;   // embed base url
+  fh_shortname: string;
+  embed_base_url: string;
 
-  contact_phone: string;    // displayed in CallToBook
+  contact_phone: string;
 }
