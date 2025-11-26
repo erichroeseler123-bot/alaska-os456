@@ -1,37 +1,56 @@
 import { notFound } from "next/navigation";
-import { getOperatorById, getToursForOperator, generateSchema, buildEmbedUrl } from "../../../lib/dataLoader";
+import { getOperatorById, getToursForOperator } from "../../../lib/dataLoader";
 import OperatorHero from "../../../components/OperatorHero";
 import FareHarborEmbed from "../../../components/FareHarborEmbed";
 import CallToBook from "../../../components/CallToBook";
 import TourCard from "../../../components/TourCard";
+import type { Operator, Tour } from "../../../lib/types";
 
-export default async function OperatorPage({ params }) {
-  const { operator } = await params;
+export default async function OperatorPage({ params }: { params: { operator: string } }) {
+  const operatorId = params.operator;
+  const operatorData: Operator | null = await getOperatorById(operatorId);
 
-  const operatorData = getOperatorById(operator);
-  if (!operatorData) notFound();
+  if (!operatorData) return notFound();
 
-  const tours = getToursForOperator(operator);
-  const schema = generateSchema("operator", operatorData);
-  const embedUrl = buildEmbedUrl(operatorData);
+  const tours: Tour[] = await getToursForOperator(operatorId);
+  const embedUrl = operatorData.embed_base_url;
+
+  // Schema JSON-LD
+  const schema = {
+    "@context": "https://schema.org",
+    "@type": "TravelAgency",
+    name: operatorData.name,
+    description: operatorData.description,
+    url: `https://welcometoalaskatours.com/operator/${operatorId}`,
+    telephone: operatorData.contact_phone,
+  };
 
   return (
-    <main className="min-h-screen bg-slate-950 text-slate-50 p-8">
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+      />
 
       <OperatorHero operator={operatorData} />
-      <div className="mt-6">
-        {embedUrl ? <FareHarborEmbed embedUrl={embedUrl} /> : <CallToBook phone={operatorData.contact_phone} />}
-      </div>
 
-      <section className="mt-8 space-y-4">
-        <h2 className="text-xl font-semibold">Tours by {operatorData.name}</h2>
+      <section className="mt-8 max-w-5xl mx-auto px-4">
+        <h2 className="text-2xl font-bold mb-4">Available Tours</h2>
+
         <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {tours.map((tour) => (
             <TourCard key={tour.slug} tour={tour} operator={operatorData} />
           ))}
         </div>
+
+        <div className="mt-10">
+          {embedUrl ? (
+            <FareHarborEmbed embedUrl={embedUrl} />
+          ) : (
+            <CallToBook phone={operatorData.contact_phone} />
+          )}
+        </div>
       </section>
-    </main>
+    </>
   );
 }
