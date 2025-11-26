@@ -1,15 +1,13 @@
 // app/port/[port]/page.tsx
-// FINAL VERSION — uses the REAL paths from your repo
+// BULLETPROOF VERSION — absolute paths from root → no aliases, no subfolders
 
 import { notFound } from "next/navigation";
+import PortHero from "./../components/PortHero";
+import TourGrid from "./../components/TourGrid";
+import CallToBook from "./../components/CallToBook";
 
-// These are the ACTUAL paths in your repo (checked on GitHub)
-import PortHero from "@/components/port/PortHero";
-import TourGrid from "@/components/tours/TourGrid";
-import CallToBook from "@/components/common/CallToBook";
-
-import portsRaw from "@/data/ports.json";
-import toursRaw from "@/data/tours.json";
+import portsRaw from "./../data/ports.json";
+import toursRaw from "./../data/tours.json";
 
 function getPortById(id: string) {
   const p = portsRaw.find((p: any) => p.id === id);
