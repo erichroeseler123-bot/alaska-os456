@@ -11,3 +11,13 @@ export interface Operator {
   ports_served?: string[];
 }
 
+export interface Port {
+  id: string;          // "juneau", "skagway", etc.
+  name: string;        // "Juneau", "Skagway", etc.
+  description?: string;
+  heroImage?: string;
+  coordinates?: {
+    lat: number;
+    lng: number;
+  };
+}
