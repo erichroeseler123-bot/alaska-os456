@@ -4,11 +4,15 @@ import OperatorHero from "../../../components/OperatorHero";
 import FareHarborEmbed from "../../../components/FareHarborEmbed";
 import CallToBook from "../../../components/CallToBook";
 import TourCard from "../../../components/TourCard";
-import type { Operator, Tour } from "../../../lib/types";
+import type { OperatorData, Tour } from "../../../lib/types";
 
-export default async function OperatorPage({ params }: { params: { operator: string } }) {
+export default async function OperatorPage({
+  params,
+}: {
+  params: { operator: string };
+}) {
   const operatorId = params.operator;
-  const operatorData: Operator | null = await getOperatorById(operatorId);
+  const operatorData: OperatorData | null = await getOperatorById(operatorId);
 
   if (!operatorData) return notFound();
 
@@ -23,6 +27,7 @@ export default async function OperatorPage({ params }: { params: { operator: str
     description: operatorData.description,
     url: `https://welcometoalaskatours.com/operator/${operatorId}`,
     telephone: operatorData.contact_phone,
+    image: operatorData.image ?? "",
   };
 
   return (
