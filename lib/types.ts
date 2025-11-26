@@ -1,23 +1,19 @@
-// lib/types.ts
-
-export interface Operator {
+export interface Port {
   id: string;
   name: string;
-  phone?: string;
-  email?: string;
-  website?: string;
-  logo?: string;
+  slug: string;
+  tagline?: string; // <-- add optional tagline
+  image: string;
   description?: string;
-  ports_served?: string[];
 }
 
-export interface Port {
-  id: string;          // "juneau", "skagway", etc.
-  name: string;        // "Juneau", "Skagway", etc.
+export interface Tour {
+  id: string;
+  title: string;
+  price_range: string;
+  duration?: string;
   description?: string;
-  heroImage?: string;
-  coordinates?: {
-    lat: number;
-    lng: number;
-  };
+  image?: string;
+  locations?: string[];
+  operator?: string;
 }
