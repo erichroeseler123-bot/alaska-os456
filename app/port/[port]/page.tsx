@@ -29,13 +29,3 @@ export default function PortPage({ params }: Props) {
     </>
   );
 }
-
-export async function generateMetadata({ params }: Props) {
-  const port = getPortById(params.port);
-  if (!port) return { title: "Port Not Found" };
-
-  return {
-    title: `${port.name} Alaska Tours & Excursions | Best Shore Activities`,
-    description: port.description || `Discover the best tours and shore excursions in ${port.name}, Alaska.`,
-  };
-}
