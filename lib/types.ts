@@ -1,4 +1,6 @@
+// ============================
 // PORTS
+// ============================
 export interface Port {
   id: string;
   name: string;
@@ -8,12 +10,19 @@ export interface Port {
   description?: string;
 }
 
+
+// ============================
 // TOURS
+// ============================
+// Matches real JSON. ALL optional except slug + title.
 export interface Tour {
-  id?: string;         // optional because your JSON often lacks it
+  id?: string;
   slug: string;
   title: string;
-  price_range: string;
+
+  // 🔥 Required fix — optional because many tours have no price_range
+  price_range?: string;
+
   duration?: string;
   description_short?: string;
   description_long?: string;
@@ -22,18 +31,21 @@ export interface Tour {
   operator?: string;
 }
 
-// OPERATORS — MATCHES YOUR REAL JSON EXACTLY
+
+// ============================
+// OPERATORS — MATCHES YOUR REAL DATA
+// ============================
 export interface OperatorData {
   id: string;
   name: string;
   description: string;
   ports: string[];
 
-  // these two fields are REQUIRED in your current types — but optional in real data
+  // Optional in JSON
   fh_shortname?: string;
   embed_base_url?: string;
 
-  // 🔥 these were causing your error — make OPTIONAL
+  // Optional fields — previously broke build
   contact_phone?: string;
   image?: string;
 }
