@@ -1,7 +1,7 @@
 // app/port/[port]/page.tsx
 
 import { notFound } from "next/navigation";
-import { getPortById, getToursForPort } from "@/lib/dataLoader";
+import { getPortById, getToursForPort } from "@/lib/dataloader";  // ← FIXED: lowercase "dataloader"
 import PortHero from "@/components/PortHero";
 import TourGrid from "@/components/TourGrid";
 import CallToBook from "@/components/CallToBook";
@@ -43,7 +43,6 @@ export default function PortPage({ params }: Props) {
   );
 }
 
-// Optional: Generate dynamic metadata
 export async function generateMetadata({ params }: Props) {
   const port = getPortById(params.port);
   if (!port) return { title: "Port Not Found" };
