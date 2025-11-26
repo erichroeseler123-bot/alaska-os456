@@ -1,0 +1,10 @@
+[
+  { "id": "juneau", "name": "Juneau", "tagline": "Capital City • Glaciers • Historic Downtown" },
+  { "id": "skagway", "name": "Skagway", "tagline": "Gold Rush Town • White Pass Railway" },
+  { "id": "ketchikan", "name": "Ketchikan", "tagline": "Totem Poles • Misty Fjords • Salmon Capital" },
+  { "id": "sitka", "name": "Sitka", "tagline": "Russian History • Wildlife Cruises" },
+  { "id": "whittier", "name": "Whittier", "tagline": "Gateway to Prince William Sound" },
+  { "id": "seward", "name": "Seward", "tagline": "Kenai Fjords • Exit Glacier • Wildlife" },
+  { "id": "haines", "name": "Haines", "tagline": "Adventure Capital of Alaska" },
+  { "id": "anchorage", "name": "Anchorage", "tagline": "Big City • Scenic Beauty • Day Adventures" }
+]
