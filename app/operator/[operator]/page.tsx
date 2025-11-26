@@ -4,22 +4,25 @@ import OperatorHero from "../../../components/OperatorHero";
 import FareHarborEmbed from "../../../components/FareHarborEmbed";
 import CallToBook from "../../../components/CallToBook";
 import TourCard from "../../../components/TourCard";
-import type { OperatorFull, Tour } from "../../../lib/types";
+import type { OperatorData, Tour } from "../../../lib/types";
 
 export default async function OperatorPage({ params }: { params: { operator: string } }) {
   const operatorId = params.operator;
-  const operatorData: OperatorFull | null = await getOperatorById(operatorId);
+
+  // 🔥 USE THE CORRECT TYPE
+  const operatorData: OperatorData | null = await getOperatorById(operatorId);
 
   if (!operatorData) return notFound();
 
   const tours: Tour[] = await getToursForOperator(operatorId);
   const embedUrl = operatorData.embed_base_url;
 
+  // Schema JSON-LD
   const schema = {
     "@context": "https://schema.org",
     "@type": "TravelAgency",
     name: operatorData.name,
-    description: operatorData.description,
+    description: operatorData.description_long,
     url: `https://welcometoalaskatours.com/operator/${operatorId}`,
     telephone: operatorData.contact_phone,
   };
