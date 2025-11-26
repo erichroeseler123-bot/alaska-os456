@@ -1,7 +1,5 @@
-// app/port/[port]/page.tsx
-
 import { notFound } from "next/navigation";
-import { getPortById, getToursForPort } from "@/lib/dataloader";  // ← CORRECT: "dataloader" with "o"
+import { getPortById, getToursForPort } from "@/lib/dataloader";
 import PortHero from "@/components/PortHero";
 import TourGrid from "@/components/TourGrid";
 import CallToBook from "@/components/CallToBook";
