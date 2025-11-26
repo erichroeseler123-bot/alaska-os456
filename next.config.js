@@ -1,11 +1,10 @@
-const path = require('path');
-
+// next.config.js
 module.exports = {
   experimental: {
-    turbopack: false  // Disable Turbopack to ensure aliases work reliably
+    turbo: false,  // Disable Turbopack for reliable alias resolution
   },
-  webpack: (config) => {
-    config.resolve.alias['@'] = path.resolve(__dirname);
+  webpack: (config, { isServer }) => {
+    config.resolve.alias['@'] = path.resolve(__dirname, '.');
     return config;
-  }
+  },
 };
