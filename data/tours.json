@@ -1,0 +1,1602 @@
+[
+  {
+    "slug": "tour-1",
+    "title": "Alaska Kayak Experience #1",
+    "description_short": "A breathtaking guided experience.",
+    "description_long": "Explore the wild landscapes of Alaska with expert guides, immersive activities, and unforgettable scenery.",
+    "duration": "5 hours",
+    "price_from": 249,
+    "category": "Railway",
+    "operator_id": "frontieradventures",
+    "port": "skagway",
+    "images": [],
+    "source": "manual",
+    "last_updated": "2025-11-26",
+    "fh_item_id": "1000",
+    "tags": [
+      "alaska",
+      "tour",
+      "shorex"
+    ]
+  },
+  {
+    "slug": "tour-2",
+    "title": "Alaska Glacier Experience #2",
+    "description_short": "A breathtaking guided experience.",
+    "description_long": "Explore the wild landscapes of Alaska with expert guides, immersive activities, and unforgettable scenery.",
+    "duration": "7 hours",
+    "price_from": 159,
+    "category": "Railway",
+    "operator_id": "glacierbaytours",
+    "port": "sitka",
+    "images": [],
+    "source": "manual",
+    "last_updated": "2025-11-26",
+    "fh_item_id": "1001",
+    "tags": [
+      "alaska",
+      "tour",
+      "shorex"
+    ]
+  },
+  {
+    "slug": "tour-3",
+    "title": "Alaska Hiking Experience #3",
+    "description_short": "A breathtaking guided experience.",
+    "description_long": "Explore the wild landscapes of Alaska with expert guides, immersive activities, and unforgettable scenery.",
+    "duration": "3 hours",
+    "price_from": 89,
+    "category": "Glacier",
+    "operator_id": "frontieradventures",
+    "port": "skagway",
+    "images": [],
+    "source": "manual",
+    "last_updated": "2025-11-26",
+    "fh_item_id": "1002",
+    "tags": [
+      "alaska",
+      "tour",
+      "shorex"
+    ]
+  },
+  {
+    "slug": "tour-4",
+    "title": "Alaska Railway Experience #4",
+    "description_short": "A breathtaking guided experience.",
+    "description_long": "Explore the wild landscapes of Alaska with expert guides, immersive activities, and unforgettable scenery.",
+    "duration": "7 hours",
+    "price_from": 199,
+    "category": "Cruise",
+    "operator_id": "glacierbaytours",
+    "port": "ketchikan",
+    "images": [],
+    "source": "manual",
+    "last_updated": "2025-11-26",
+    "fh_item_id": "1003",
+    "tags": [
+      "alaska",
+      "tour",
+      "shorex"
+    ]
+  },
+  {
+    "slug": "tour-5",
+    "title": "Alaska Cruise Experience #5",
+    "description_short": "A breathtaking guided experience.",
+    "description_long": "Explore the wild landscapes of Alaska with expert guides, immersive activities, and unforgettable scenery.",
+    "duration": "3 hours",
+    "price_from": 129,
+    "category": "Glacier",
+    "operator_id": "frontieradventures",
+    "port": "juneau",
+    "images": [],
+    "source": "manual",
+    "last_updated": "2025-11-26",
+    "fh_item_id": "1004",
+    "tags": [
+      "alaska",
+      "tour",
+      "shorex"
+    ]
+  },
+  {
+    "slug": "tour-6",
+    "title": "Alaska Railway Experience #6",
+    "description_short": "A breathtaking guided experience.",
+    "description_long": "Explore the wild landscapes of Alaska with expert guides, immersive activities, and unforgettable scenery.",
+    "duration": "3 hours",
+    "price_from": 129,
+    "category": "Kayak",
+    "operator_id": "frontieradventures",
+    "port": "juneau",
+    "images": [],
+    "source": "manual",
+    "last_updated": "2025-11-26",
+    "fh_item_id": "1005",
+    "tags": [
+      "alaska",
+      "tour",
+      "shorex"
+    ]
+  },
+  {
+    "slug": "tour-7",
+    "title": "Alaska Glacier Experience #7",
+    "description_short": "A breathtaking guided experience.",
+    "description_long": "Explore the wild landscapes of Alaska with expert guides, immersive activities, and unforgettable scenery.",
+    "duration": "7 hours",
+    "price_from": 89,
+    "category": "Glacier",
+    "operator_id": "glacierbaytours",
+    "port": "juneau",
+    "images": [],
+    "source": "manual",
+    "last_updated": "2025-11-26",
+    "fh_item_id": "1006",
+    "tags": [
+      "alaska",
+      "tour",
+      "shorex"
+    ]
+  },
+  {
+    "slug": "tour-8",
+    "title": "Alaska Glacier Experience #8",
+    "description_short": "A breathtaking guided experience.",
+    "description_long": "Explore the wild landscapes of Alaska with expert guides, immersive activities, and unforgettable scenery.",
+    "duration": "7 hours",
+    "price_from": 89,
+    "category": "Cruise",
+    "operator_id": "glacierbaytours",
+    "port": "juneau",
+    "images": [],
+    "source": "manual",
+    "last_updated": "2025-11-26",
+    "fh_item_id": "1007",
+    "tags": [
+      "alaska",
+      "tour",
+      "shorex"
+    ]
+  },
+  {
+    "slug": "tour-9",
+    "title": "Alaska Kayak Experience #9",
+    "description_short": "A breathtaking guided experience.",
+    "description_long": "Explore the wild landscapes of Alaska with expert guides, immersive activities, and unforgettable scenery.",
+    "duration": "6 hours",
+    "price_from": 159,
+    "category": "Cruise",
+    "operator_id": "glacierbaytours",
+    "port": "skagway",
+    "images": [],
+    "source": "manual",
+    "last_updated": "2025-11-26",
+    "fh_item_id": "1008",
+    "tags": [
+      "alaska",
+      "tour",
+      "shorex"
+    ]
+  },
+  {
+    "slug": "tour-10",
+    "title": "Alaska Hiking Experience #10",
+    "description_short": "A breathtaking guided experience.",
+    "description_long": "Explore the wild landscapes of Alaska with expert guides, immersive activities, and unforgettable scenery.",
+    "duration": "5 hours",
+    "price_from": 349,
+    "category": "Adventure",
+    "operator_id": "alaskaexpeditions",
+    "port": "ketchikan",
+    "images": [],
+    "source": "manual",
+    "last_updated": "2025-11-26",
+    "fh_item_id": "1009",
+    "tags": [
+      "alaska",
+      "tour",
+      "shorex"
+    ]
+  },
+  {
+    "slug": "tour-11",
+    "title": "Alaska Glacier Experience #11",
+    "description_short": "A breathtaking guided experience.",
+    "description_long": "Explore the wild landscapes of Alaska with expert guides, immersive activities, and unforgettable scenery.",
+    "duration": "4 hours",
+    "price_from": 349,
+    "category": "Adventure",
+    "operator_id": "glacierbaytours",
+    "port": "skagway",
+    "images": [],
+    "source": "manual",
+    "last_updated": "2025-11-26",
+    "fh_item_id": "1010",
+    "tags": [
+      "alaska",
+      "tour",
+      "shorex"
+    ]
+  },
+  {
+    "slug": "tour-12",
+    "title": "Alaska Cruise Experience #12",
+    "description_short": "A breathtaking guided experience.",
+    "description_long": "Explore the wild landscapes of Alaska with expert guides, immersive activities, and unforgettable scenery.",
+    "duration": "7 hours",
+    "price_from": 159,
+    "category": "Wildlife",
+    "operator_id": "alaskaexpeditions",
+    "port": "ketchikan",
+    "images": [],
+    "source": "manual",
+    "last_updated": "2025-11-26",
+    "fh_item_id": "1011",
+    "tags": [
+      "alaska",
+      "tour",
+      "shorex"
+    ]
+  },
+  {
+    "slug": "tour-13",
+    "title": "Alaska Hiking Experience #13",
+    "description_short": "A breathtaking guided experience.",
+    "description_long": "Explore the wild landscapes of Alaska with expert guides, immersive activities, and unforgettable scenery.",
+    "duration": "7 hours",
+    "price_from": 249,
+    "category": "Railway",
+    "operator_id": "alaskaexpeditions",
+    "port": "juneau",
+    "images": [],
+    "source": "manual",
+    "last_updated": "2025-11-26",
+    "fh_item_id": "1012",
+    "tags": [
+      "alaska",
+      "tour",
+      "shorex"
+    ]
+  },
+  {
+    "slug": "tour-14",
+    "title": "Alaska Railway Experience #14",
+    "description_short": "A breathtaking guided experience.",
+    "description_long": "Explore the wild landscapes of Alaska with expert guides, immersive activities, and unforgettable scenery.",
+    "duration": "4 hours",
+    "price_from": 129,
+    "category": "Wildlife",
+    "operator_id": "glacierbaytours",
+    "port": "juneau",
+    "images": [],
+    "source": "manual",
+    "last_updated": "2025-11-26",
+    "fh_item_id": "1013",
+    "tags": [
+      "alaska",
+      "tour",
+      "shorex"
+    ]
+  },
+  {
+    "slug": "tour-15",
+    "title": "Alaska Glacier Experience #15",
+    "description_short": "A breathtaking guided experience.",
+    "description_long": "Explore the wild landscapes of Alaska with expert guides, immersive activities, and unforgettable scenery.",
+    "duration": "8 hours",
+    "price_from": 349,
+    "category": "Adventure",
+    "operator_id": "frontieradventures",
+    "port": "ketchikan",
+    "images": [],
+    "source": "manual",
+    "last_updated": "2025-11-26",
+    "fh_item_id": "1014",
+    "tags": [
+      "alaska",
+      "tour",
+      "shorex"
+    ]
+  },
+  {
+    "slug": "tour-16",
+    "title": "Alaska Cruise Experience #16",
+    "description_short": "A breathtaking guided experience.",
+    "description_long": "Explore the wild landscapes of Alaska with expert guides, immersive activities, and unforgettable scenery.",
+    "duration": "3 hours",
+    "price_from": 249,
+    "category": "Cruise",
+    "operator_id": "glacierbaytours",
+    "port": "juneau",
+    "images": [],
+    "source": "manual",
+    "last_updated": "2025-11-26",
+    "fh_item_id": "1015",
+    "tags": [
+      "alaska",
+      "tour",
+      "shorex"
+    ]
+  },
+  {
+    "slug": "tour-17",
+    "title": "Alaska Kayak Experience #17",
+    "description_short": "A breathtaking guided experience.",
+    "description_long": "Explore the wild landscapes of Alaska with expert guides, immersive activities, and unforgettable scenery.",
+    "duration": "3 hours",
+    "price_from": 249,
+    "category": "Glacier",
+    "operator_id": "alaskaexpeditions",
+    "port": "juneau",
+    "images": [],
+    "source": "manual",
+    "last_updated": "2025-11-26",
+    "fh_item_id": "1016",
+    "tags": [
+      "alaska",
+      "tour",
+      "shorex"
+    ]
+  },
+  {
+    "slug": "tour-18",
+    "title": "Alaska Hiking Experience #18",
+    "description_short": "A breathtaking guided experience.",
+    "description_long": "Explore the wild landscapes of Alaska with expert guides, immersive activities, and unforgettable scenery.",
+    "duration": "3 hours",
+    "price_from": 349,
+    "category": "Railway",
+    "operator_id": "alaskaexpeditions",
+    "port": "ketchikan",
+    "images": [],
+    "source": "manual",
+    "last_updated": "2025-11-26",
+    "fh_item_id": "1017",
+    "tags": [
+      "alaska",
+      "tour",
+      "shorex"
+    ]
+  },
+  {
+    "slug": "tour-19",
+    "title": "Alaska Wildlife Experience #19",
+    "description_short": "A breathtaking guided experience.",
+    "description_long": "Explore the wild landscapes of Alaska with expert guides, immersive activities, and unforgettable scenery.",
+    "duration": "6 hours",
+    "price_from": 129,
+    "category": "Glacier",
+    "operator_id": "frontieradventures",
+    "port": "sitka",
+    "images": [],
+    "source": "manual",
+    "last_updated": "2025-11-26",
+    "fh_item_id": "1018",
+    "tags": [
+      "alaska",
+      "tour",
+      "shorex"
+    ]
+  },
+  {
+    "slug": "tour-20",
+    "title": "Alaska Wildlife Experience #20",
+    "description_short": "A breathtaking guided experience.",
+    "description_long": "Explore the wild landscapes of Alaska with expert guides, immersive activities, and unforgettable scenery.",
+    "duration": "7 hours",
+    "price_from": 159,
+    "category": "Kayak",
+    "operator_id": "alaskaexpeditions",
+    "port": "sitka",
+    "images": [],
+    "source": "manual",
+    "last_updated": "2025-11-26",
+    "fh_item_id": "1019",
+    "tags": [
+      "alaska",
+      "tour",
+      "shorex"
+    ]
+  },
+  {
+    "slug": "tour-21",
+    "title": "Alaska Cruise Experience #21",
+    "description_short": "A breathtaking guided experience.",
+    "description_long": "Explore the wild landscapes of Alaska with expert guides, immersive activities, and unforgettable scenery.",
+    "duration": "4 hours",
+    "price_from": 129,
+    "category": "Railway",
+    "operator_id": "glacierbaytours",
+    "port": "ketchikan",
+    "images": [],
+    "source": "manual",
+    "last_updated": "2025-11-26",
+    "fh_item_id": "1020",
+    "tags": [
+      "alaska",
+      "tour",
+      "shorex"
+    ]
+  },
+  {
+    "slug": "tour-22",
+    "title": "Alaska Cruise Experience #22",
+    "description_short": "A breathtaking guided experience.",
+    "description_long": "Explore the wild landscapes of Alaska with expert guides, immersive activities, and unforgettable scenery.",
+    "duration": "7 hours",
+    "price_from": 89,
+    "category": "Glacier",
+    "operator_id": "frontieradventures",
+    "port": "juneau",
+    "images": [],
+    "source": "manual",
+    "last_updated": "2025-11-26",
+    "fh_item_id": "1021",
+    "tags": [
+      "alaska",
+      "tour",
+      "shorex"
+    ]
+  },
+  {
+    "slug": "tour-23",
+    "title": "Alaska Glacier Experience #23",
+    "description_short": "A breathtaking guided experience.",
+    "description_long": "Explore the wild landscapes of Alaska with expert guides, immersive activities, and unforgettable scenery.",
+    "duration": "6 hours",
+    "price_from": 129,
+    "category": "Adventure",
+    "operator_id": "alaskaexpeditions",
+    "port": "sitka",
+    "images": [],
+    "source": "manual",
+    "last_updated": "2025-11-26",
+    "fh_item_id": "1022",
+    "tags": [
+      "alaska",
+      "tour",
+      "shorex"
+    ]
+  },
+  {
+    "slug": "tour-24",
+    "title": "Alaska Glacier Experience #24",
+    "description_short": "A breathtaking guided experience.",
+    "description_long": "Explore the wild landscapes of Alaska with expert guides, immersive activities, and unforgettable scenery.",
+    "duration": "2 hours",
+    "price_from": 129,
+    "category": "Kayak",
+    "operator_id": "frontieradventures",
+    "port": "juneau",
+    "images": [],
+    "source": "manual",
+    "last_updated": "2025-11-26",
+    "fh_item_id": "1023",
+    "tags": [
+      "alaska",
+      "tour",
+      "shorex"
+    ]
+  },
+  {
+    "slug": "tour-25",
+    "title": "Alaska Cruise Experience #25",
+    "description_short": "A breathtaking guided experience.",
+    "description_long": "Explore the wild landscapes of Alaska with expert guides, immersive activities, and unforgettable scenery.",
+    "duration": "4 hours",
+    "price_from": 129,
+    "category": "Adventure",
+    "operator_id": "frontieradventures",
+    "port": "sitka",
+    "images": [],
+    "source": "manual",
+    "last_updated": "2025-11-26",
+    "fh_item_id": "1024",
+    "tags": [
+      "alaska",
+      "tour",
+      "shorex"
+    ]
+  },
+  {
+    "slug": "tour-26",
+    "title": "Alaska Railway Experience #26",
+    "description_short": "A breathtaking guided experience.",
+    "description_long": "Explore the wild landscapes of Alaska with expert guides, immersive activities, and unforgettable scenery.",
+    "duration": "8 hours",
+    "price_from": 89,
+    "category": "Hiking",
+    "operator_id": "frontieradventures",
+    "port": "sitka",
+    "images": [],
+    "source": "manual",
+    "last_updated": "2025-11-26",
+    "fh_item_id": "1025",
+    "tags": [
+      "alaska",
+      "tour",
+      "shorex"
+    ]
+  },
+  {
+    "slug": "tour-27",
+    "title": "Alaska Wildlife Experience #27",
+    "description_short": "A breathtaking guided experience.",
+    "description_long": "Explore the wild landscapes of Alaska with expert guides, immersive activities, and unforgettable scenery.",
+    "duration": "4 hours",
+    "price_from": 89,
+    "category": "Kayak",
+    "operator_id": "glacierbaytours",
+    "port": "ketchikan",
+    "images": [],
+    "source": "manual",
+    "last_updated": "2025-11-26",
+    "fh_item_id": "1026",
+    "tags": [
+      "alaska",
+      "tour",
+      "shorex"
+    ]
+  },
+  {
+    "slug": "tour-28",
+    "title": "Alaska Adventure Experience #28",
+    "description_short": "A breathtaking guided experience.",
+    "description_long": "Explore the wild landscapes of Alaska with expert guides, immersive activities, and unforgettable scenery.",
+    "duration": "7 hours",
+    "price_from": 299,
+    "category": "Kayak",
+    "operator_id": "frontieradventures",
+    "port": "sitka",
+    "images": [],
+    "source": "manual",
+    "last_updated": "2025-11-26",
+    "fh_item_id": "1027",
+    "tags": [
+      "alaska",
+      "tour",
+      "shorex"
+    ]
+  },
+  {
+    "slug": "tour-29",
+    "title": "Alaska Kayak Experience #29",
+    "description_short": "A breathtaking guided experience.",
+    "description_long": "Explore the wild landscapes of Alaska with expert guides, immersive activities, and unforgettable scenery.",
+    "duration": "6 hours",
+    "price_from": 129,
+    "category": "Railway",
+    "operator_id": "alaskaexpeditions",
+    "port": "skagway",
+    "images": [],
+    "source": "manual",
+    "last_updated": "2025-11-26",
+    "fh_item_id": "1028",
+    "tags": [
+      "alaska",
+      "tour",
+      "shorex"
+    ]
+  },
+  {
+    "slug": "tour-30",
+    "title": "Alaska Cruise Experience #30",
+    "description_short": "A breathtaking guided experience.",
+    "description_long": "Explore the wild landscapes of Alaska with expert guides, immersive activities, and unforgettable scenery.",
+    "duration": "4 hours",
+    "price_from": 199,
+    "category": "Glacier",
+    "operator_id": "glacierbaytours",
+    "port": "sitka",
+    "images": [],
+    "source": "manual",
+    "last_updated": "2025-11-26",
+    "fh_item_id": "1029",
+    "tags": [
+      "alaska",
+      "tour",
+      "shorex"
+    ]
+  },
+  {
+    "slug": "tour-31",
+    "title": "Alaska Hiking Experience #31",
+    "description_short": "A breathtaking guided experience.",
+    "description_long": "Explore the wild landscapes of Alaska with expert guides, immersive activities, and unforgettable scenery.",
+    "duration": "4 hours",
+    "price_from": 349,
+    "category": "Glacier",
+    "operator_id": "glacierbaytours",
+    "port": "ketchikan",
+    "images": [],
+    "source": "manual",
+    "last_updated": "2025-11-26",
+    "fh_item_id": "1030",
+    "tags": [
+      "alaska",
+      "tour",
+      "shorex"
+    ]
+  },
+  {
+    "slug": "tour-32",
+    "title": "Alaska Wildlife Experience #32",
+    "description_short": "A breathtaking guided experience.",
+    "description_long": "Explore the wild landscapes of Alaska with expert guides, immersive activities, and unforgettable scenery.",
+    "duration": "2 hours",
+    "price_from": 299,
+    "category": "Cruise",
+    "operator_id": "alaskaexpeditions",
+    "port": "juneau",
+    "images": [],
+    "source": "manual",
+    "last_updated": "2025-11-26",
+    "fh_item_id": "1031",
+    "tags": [
+      "alaska",
+      "tour",
+      "shorex"
+    ]
+  },
+  {
+    "slug": "tour-33",
+    "title": "Alaska Wildlife Experience #33",
+    "description_short": "A breathtaking guided experience.",
+    "description_long": "Explore the wild landscapes of Alaska with expert guides, immersive activities, and unforgettable scenery.",
+    "duration": "4 hours",
+    "price_from": 159,
+    "category": "Railway",
+    "operator_id": "glacierbaytours",
+    "port": "juneau",
+    "images": [],
+    "source": "manual",
+    "last_updated": "2025-11-26",
+    "fh_item_id": "1032",
+    "tags": [
+      "alaska",
+      "tour",
+      "shorex"
+    ]
+  },
+  {
+    "slug": "tour-34",
+    "title": "Alaska Cruise Experience #34",
+    "description_short": "A breathtaking guided experience.",
+    "description_long": "Explore the wild landscapes of Alaska with expert guides, immersive activities, and unforgettable scenery.",
+    "duration": "6 hours",
+    "price_from": 129,
+    "category": "Railway",
+    "operator_id": "alaskaexpeditions",
+    "port": "skagway",
+    "images": [],
+    "source": "manual",
+    "last_updated": "2025-11-26",
+    "fh_item_id": "1033",
+    "tags": [
+      "alaska",
+      "tour",
+      "shorex"
+    ]
+  },
+  {
+    "slug": "tour-35",
+    "title": "Alaska Railway Experience #35",
+    "description_short": "A breathtaking guided experience.",
+    "description_long": "Explore the wild landscapes of Alaska with expert guides, immersive activities, and unforgettable scenery.",
+    "duration": "7 hours",
+    "price_from": 89,
+    "category": "Adventure",
+    "operator_id": "glacierbaytours",
+    "port": "juneau",
+    "images": [],
+    "source": "manual",
+    "last_updated": "2025-11-26",
+    "fh_item_id": "1034",
+    "tags": [
+      "alaska",
+      "tour",
+      "shorex"
+    ]
+  },
+  {
+    "slug": "tour-36",
+    "title": "Alaska Adventure Experience #36",
+    "description_short": "A breathtaking guided experience.",
+    "description_long": "Explore the wild landscapes of Alaska with expert guides, immersive activities, and unforgettable scenery.",
+    "duration": "8 hours",
+    "price_from": 129,
+    "category": "Hiking",
+    "operator_id": "glacierbaytours",
+    "port": "ketchikan",
+    "images": [],
+    "source": "manual",
+    "last_updated": "2025-11-26",
+    "fh_item_id": "1035",
+    "tags": [
+      "alaska",
+      "tour",
+      "shorex"
+    ]
+  },
+  {
+    "slug": "tour-37",
+    "title": "Alaska Hiking Experience #37",
+    "description_short": "A breathtaking guided experience.",
+    "description_long": "Explore the wild landscapes of Alaska with expert guides, immersive activities, and unforgettable scenery.",
+    "duration": "3 hours",
+    "price_from": 159,
+    "category": "Glacier",
+    "operator_id": "frontieradventures",
+    "port": "skagway",
+    "images": [],
+    "source": "manual",
+    "last_updated": "2025-11-26",
+    "fh_item_id": "1036",
+    "tags": [
+      "alaska",
+      "tour",
+      "shorex"
+    ]
+  },
+  {
+    "slug": "tour-38",
+    "title": "Alaska Railway Experience #38",
+    "description_short": "A breathtaking guided experience.",
+    "description_long": "Explore the wild landscapes of Alaska with expert guides, immersive activities, and unforgettable scenery.",
+    "duration": "4 hours",
+    "price_from": 199,
+    "category": "Railway",
+    "operator_id": "frontieradventures",
+    "port": "juneau",
+    "images": [],
+    "source": "manual",
+    "last_updated": "2025-11-26",
+    "fh_item_id": "1037",
+    "tags": [
+      "alaska",
+      "tour",
+      "shorex"
+    ]
+  },
+  {
+    "slug": "tour-39",
+    "title": "Alaska Cruise Experience #39",
+    "description_short": "A breathtaking guided experience.",
+    "description_long": "Explore the wild landscapes of Alaska with expert guides, immersive activities, and unforgettable scenery.",
+    "duration": "2 hours",
+    "price_from": 89,
+    "category": "Cruise",
+    "operator_id": "glacierbaytours",
+    "port": "sitka",
+    "images": [],
+    "source": "manual",
+    "last_updated": "2025-11-26",
+    "fh_item_id": "1038",
+    "tags": [
+      "alaska",
+      "tour",
+      "shorex"
+    ]
+  },
+  {
+    "slug": "tour-40",
+    "title": "Alaska Glacier Experience #40",
+    "description_short": "A breathtaking guided experience.",
+    "description_long": "Explore the wild landscapes of Alaska with expert guides, immersive activities, and unforgettable scenery.",
+    "duration": "6 hours",
+    "price_from": 199,
+    "category": "Kayak",
+    "operator_id": "glacierbaytours",
+    "port": "ketchikan",
+    "images": [],
+    "source": "manual",
+    "last_updated": "2025-11-26",
+    "fh_item_id": "1039",
+    "tags": [
+      "alaska",
+      "tour",
+      "shorex"
+    ]
+  },
+  {
+    "slug": "tour-41",
+    "title": "Alaska Glacier Experience #41",
+    "description_short": "A breathtaking guided experience.",
+    "description_long": "Explore the wild landscapes of Alaska with expert guides, immersive activities, and unforgettable scenery.",
+    "duration": "3 hours",
+    "price_from": 299,
+    "category": "Cruise",
+    "operator_id": "glacierbaytours",
+    "port": "ketchikan",
+    "images": [],
+    "source": "manual",
+    "last_updated": "2025-11-26",
+    "fh_item_id": "1040",
+    "tags": [
+      "alaska",
+      "tour",
+      "shorex"
+    ]
+  },
+  {
+    "slug": "tour-42",
+    "title": "Alaska Kayak Experience #42",
+    "description_short": "A breathtaking guided experience.",
+    "description_long": "Explore the wild landscapes of Alaska with expert guides, immersive activities, and unforgettable scenery.",
+    "duration": "2 hours",
+    "price_from": 199,
+    "category": "Hiking",
+    "operator_id": "frontieradventures",
+    "port": "sitka",
+    "images": [],
+    "source": "manual",
+    "last_updated": "2025-11-26",
+    "fh_item_id": "1041",
+    "tags": [
+      "alaska",
+      "tour",
+      "shorex"
+    ]
+  },
+  {
+    "slug": "tour-43",
+    "title": "Alaska Railway Experience #43",
+    "description_short": "A breathtaking guided experience.",
+    "description_long": "Explore the wild landscapes of Alaska with expert guides, immersive activities, and unforgettable scenery.",
+    "duration": "5 hours",
+    "price_from": 129,
+    "category": "Hiking",
+    "operator_id": "alaskaexpeditions",
+    "port": "ketchikan",
+    "images": [],
+    "source": "manual",
+    "last_updated": "2025-11-26",
+    "fh_item_id": "1042",
+    "tags": [
+      "alaska",
+      "tour",
+      "shorex"
+    ]
+  },
+  {
+    "slug": "tour-44",
+    "title": "Alaska Railway Experience #44",
+    "description_short": "A breathtaking guided experience.",
+    "description_long": "Explore the wild landscapes of Alaska with expert guides, immersive activities, and unforgettable scenery.",
+    "duration": "4 hours",
+    "price_from": 159,
+    "category": "Railway",
+    "operator_id": "glacierbaytours",
+    "port": "ketchikan",
+    "images": [],
+    "source": "manual",
+    "last_updated": "2025-11-26",
+    "fh_item_id": "1043",
+    "tags": [
+      "alaska",
+      "tour",
+      "shorex"
+    ]
+  },
+  {
+    "slug": "tour-45",
+    "title": "Alaska Cruise Experience #45",
+    "description_short": "A breathtaking guided experience.",
+    "description_long": "Explore the wild landscapes of Alaska with expert guides, immersive activities, and unforgettable scenery.",
+    "duration": "2 hours",
+    "price_from": 129,
+    "category": "Hiking",
+    "operator_id": "alaskaexpeditions",
+    "port": "skagway",
+    "images": [],
+    "source": "manual",
+    "last_updated": "2025-11-26",
+    "fh_item_id": "1044",
+    "tags": [
+      "alaska",
+      "tour",
+      "shorex"
+    ]
+  },
+  {
+    "slug": "tour-46",
+    "title": "Alaska Cruise Experience #46",
+    "description_short": "A breathtaking guided experience.",
+    "description_long": "Explore the wild landscapes of Alaska with expert guides, immersive activities, and unforgettable scenery.",
+    "duration": "5 hours",
+    "price_from": 159,
+    "category": "Cruise",
+    "operator_id": "frontieradventures",
+    "port": "ketchikan",
+    "images": [],
+    "source": "manual",
+    "last_updated": "2025-11-26",
+    "fh_item_id": "1045",
+    "tags": [
+      "alaska",
+      "tour",
+      "shorex"
+    ]
+  },
+  {
+    "slug": "tour-47",
+    "title": "Alaska Glacier Experience #47",
+    "description_short": "A breathtaking guided experience.",
+    "description_long": "Explore the wild landscapes of Alaska with expert guides, immersive activities, and unforgettable scenery.",
+    "duration": "4 hours",
+    "price_from": 89,
+    "category": "Wildlife",
+    "operator_id": "alaskaexpeditions",
+    "port": "ketchikan",
+    "images": [],
+    "source": "manual",
+    "last_updated": "2025-11-26",
+    "fh_item_id": "1046",
+    "tags": [
+      "alaska",
+      "tour",
+      "shorex"
+    ]
+  },
+  {
+    "slug": "tour-48",
+    "title": "Alaska Cruise Experience #48",
+    "description_short": "A breathtaking guided experience.",
+    "description_long": "Explore the wild landscapes of Alaska with expert guides, immersive activities, and unforgettable scenery.",
+    "duration": "4 hours",
+    "price_from": 89,
+    "category": "Kayak",
+    "operator_id": "alaskaexpeditions",
+    "port": "skagway",
+    "images": [],
+    "source": "manual",
+    "last_updated": "2025-11-26",
+    "fh_item_id": "1047",
+    "tags": [
+      "alaska",
+      "tour",
+      "shorex"
+    ]
+  },
+  {
+    "slug": "tour-49",
+    "title": "Alaska Kayak Experience #49",
+    "description_short": "A breathtaking guided experience.",
+    "description_long": "Explore the wild landscapes of Alaska with expert guides, immersive activities, and unforgettable scenery.",
+    "duration": "6 hours",
+    "price_from": 349,
+    "category": "Railway",
+    "operator_id": "glacierbaytours",
+    "port": "juneau",
+    "images": [],
+    "source": "manual",
+    "last_updated": "2025-11-26",
+    "fh_item_id": "1048",
+    "tags": [
+      "alaska",
+      "tour",
+      "shorex"
+    ]
+  },
+  {
+    "slug": "tour-50",
+    "title": "Alaska Hiking Experience #50",
+    "description_short": "A breathtaking guided experience.",
+    "description_long": "Explore the wild landscapes of Alaska with expert guides, immersive activities, and unforgettable scenery.",
+    "duration": "3 hours",
+    "price_from": 89,
+    "category": "Cruise",
+    "operator_id": "glacierbaytours",
+    "port": "ketchikan",
+    "images": [],
+    "source": "manual",
+    "last_updated": "2025-11-26",
+    "fh_item_id": "1049",
+    "tags": [
+      "alaska",
+      "tour",
+      "shorex"
+    ]
+  },
+  {
+    "slug": "tour-51",
+    "title": "Alaska Adventure Experience #51",
+    "description_short": "A breathtaking guided experience.",
+    "description_long": "Explore the wild landscapes of Alaska with expert guides, immersive activities, and unforgettable scenery.",
+    "duration": "7 hours",
+    "price_from": 89,
+    "category": "Cruise",
+    "operator_id": "frontieradventures",
+    "port": "juneau",
+    "images": [],
+    "source": "manual",
+    "last_updated": "2025-11-26",
+    "fh_item_id": "1050",
+    "tags": [
+      "alaska",
+      "tour",
+      "shorex"
+    ]
+  },
+  {
+    "slug": "tour-52",
+    "title": "Alaska Kayak Experience #52",
+    "description_short": "A breathtaking guided experience.",
+    "description_long": "Explore the wild landscapes of Alaska with expert guides, immersive activities, and unforgettable scenery.",
+    "duration": "6 hours",
+    "price_from": 129,
+    "category": "Railway",
+    "operator_id": "frontieradventures",
+    "port": "juneau",
+    "images": [],
+    "source": "manual",
+    "last_updated": "2025-11-26",
+    "fh_item_id": "1051",
+    "tags": [
+      "alaska",
+      "tour",
+      "shorex"
+    ]
+  },
+  {
+    "slug": "tour-53",
+    "title": "Alaska Cruise Experience #53",
+    "description_short": "A breathtaking guided experience.",
+    "description_long": "Explore the wild landscapes of Alaska with expert guides, immersive activities, and unforgettable scenery.",
+    "duration": "7 hours",
+    "price_from": 199,
+    "category": "Wildlife",
+    "operator_id": "glacierbaytours",
+    "port": "skagway",
+    "images": [],
+    "source": "manual",
+    "last_updated": "2025-11-26",
+    "fh_item_id": "1052",
+    "tags": [
+      "alaska",
+      "tour",
+      "shorex"
+    ]
+  },
+  {
+    "slug": "tour-54",
+    "title": "Alaska Wildlife Experience #54",
+    "description_short": "A breathtaking guided experience.",
+    "description_long": "Explore the wild landscapes of Alaska with expert guides, immersive activities, and unforgettable scenery.",
+    "duration": "5 hours",
+    "price_from": 199,
+    "category": "Kayak",
+    "operator_id": "alaskaexpeditions",
+    "port": "skagway",
+    "images": [],
+    "source": "manual",
+    "last_updated": "2025-11-26",
+    "fh_item_id": "1053",
+    "tags": [
+      "alaska",
+      "tour",
+      "shorex"
+    ]
+  },
+  {
+    "slug": "tour-55",
+    "title": "Alaska Glacier Experience #55",
+    "description_short": "A breathtaking guided experience.",
+    "description_long": "Explore the wild landscapes of Alaska with expert guides, immersive activities, and unforgettable scenery.",
+    "duration": "4 hours",
+    "price_from": 249,
+    "category": "Wildlife",
+    "operator_id": "glacierbaytours",
+    "port": "skagway",
+    "images": [],
+    "source": "manual",
+    "last_updated": "2025-11-26",
+    "fh_item_id": "1054",
+    "tags": [
+      "alaska",
+      "tour",
+      "shorex"
+    ]
+  },
+  {
+    "slug": "tour-56",
+    "title": "Alaska Adventure Experience #56",
+    "description_short": "A breathtaking guided experience.",
+    "description_long": "Explore the wild landscapes of Alaska with expert guides, immersive activities, and unforgettable scenery.",
+    "duration": "6 hours",
+    "price_from": 159,
+    "category": "Railway",
+    "operator_id": "alaskaexpeditions",
+    "port": "juneau",
+    "images": [],
+    "source": "manual",
+    "last_updated": "2025-11-26",
+    "fh_item_id": "1055",
+    "tags": [
+      "alaska",
+      "tour",
+      "shorex"
+    ]
+  },
+  {
+    "slug": "tour-57",
+    "title": "Alaska Kayak Experience #57",
+    "description_short": "A breathtaking guided experience.",
+    "description_long": "Explore the wild landscapes of Alaska with expert guides, immersive activities, and unforgettable scenery.",
+    "duration": "8 hours",
+    "price_from": 129,
+    "category": "Adventure",
+    "operator_id": "glacierbaytours",
+    "port": "ketchikan",
+    "images": [],
+    "source": "manual",
+    "last_updated": "2025-11-26",
+    "fh_item_id": "1056",
+    "tags": [
+      "alaska",
+      "tour",
+      "shorex"
+    ]
+  },
+  {
+    "slug": "tour-58",
+    "title": "Alaska Hiking Experience #58",
+    "description_short": "A breathtaking guided experience.",
+    "description_long": "Explore the wild landscapes of Alaska with expert guides, immersive activities, and unforgettable scenery.",
+    "duration": "3 hours",
+    "price_from": 349,
+    "category": "Wildlife",
+    "operator_id": "alaskaexpeditions",
+    "port": "ketchikan",
+    "images": [],
+    "source": "manual",
+    "last_updated": "2025-11-26",
+    "fh_item_id": "1057",
+    "tags": [
+      "alaska",
+      "tour",
+      "shorex"
+    ]
+  },
+  {
+    "slug": "tour-59",
+    "title": "Alaska Glacier Experience #59",
+    "description_short": "A breathtaking guided experience.",
+    "description_long": "Explore the wild landscapes of Alaska with expert guides, immersive activities, and unforgettable scenery.",
+    "duration": "8 hours",
+    "price_from": 199,
+    "category": "Railway",
+    "operator_id": "frontieradventures",
+    "port": "juneau",
+    "images": [],
+    "source": "manual",
+    "last_updated": "2025-11-26",
+    "fh_item_id": "1058",
+    "tags": [
+      "alaska",
+      "tour",
+      "shorex"
+    ]
+  },
+  {
+    "slug": "tour-60",
+    "title": "Alaska Hiking Experience #60",
+    "description_short": "A breathtaking guided experience.",
+    "description_long": "Explore the wild landscapes of Alaska with expert guides, immersive activities, and unforgettable scenery.",
+    "duration": "3 hours",
+    "price_from": 249,
+    "category": "Cruise",
+    "operator_id": "glacierbaytours",
+    "port": "sitka",
+    "images": [],
+    "source": "manual",
+    "last_updated": "2025-11-26",
+    "fh_item_id": "1059",
+    "tags": [
+      "alaska",
+      "tour",
+      "shorex"
+    ]
+  },
+  {
+    "slug": "tour-61",
+    "title": "Alaska Hiking Experience #61",
+    "description_short": "A breathtaking guided experience.",
+    "description_long": "Explore the wild landscapes of Alaska with expert guides, immersive activities, and unforgettable scenery.",
+    "duration": "5 hours",
+    "price_from": 129,
+    "category": "Hiking",
+    "operator_id": "alaskaexpeditions",
+    "port": "sitka",
+    "images": [],
+    "source": "manual",
+    "last_updated": "2025-11-26",
+    "fh_item_id": "1060",
+    "tags": [
+      "alaska",
+      "tour",
+      "shorex"
+    ]
+  },
+  {
+    "slug": "tour-62",
+    "title": "Alaska Adventure Experience #62",
+    "description_short": "A breathtaking guided experience.",
+    "description_long": "Explore the wild landscapes of Alaska with expert guides, immersive activities, and unforgettable scenery.",
+    "duration": "4 hours",
+    "price_from": 299,
+    "category": "Cruise",
+    "operator_id": "frontieradventures",
+    "port": "sitka",
+    "images": [],
+    "source": "manual",
+    "last_updated": "2025-11-26",
+    "fh_item_id": "1061",
+    "tags": [
+      "alaska",
+      "tour",
+      "shorex"
+    ]
+  },
+  {
+    "slug": "tour-63",
+    "title": "Alaska Adventure Experience #63",
+    "description_short": "A breathtaking guided experience.",
+    "description_long": "Explore the wild landscapes of Alaska with expert guides, immersive activities, and unforgettable scenery.",
+    "duration": "5 hours",
+    "price_from": 159,
+    "category": "Hiking",
+    "operator_id": "alaskaexpeditions",
+    "port": "sitka",
+    "images": [],
+    "source": "manual",
+    "last_updated": "2025-11-26",
+    "fh_item_id": "1062",
+    "tags": [
+      "alaska",
+      "tour",
+      "shorex"
+    ]
+  },
+  {
+    "slug": "tour-64",
+    "title": "Alaska Wildlife Experience #64",
+    "description_short": "A breathtaking guided experience.",
+    "description_long": "Explore the wild landscapes of Alaska with expert guides, immersive activities, and unforgettable scenery.",
+    "duration": "6 hours",
+    "price_from": 199,
+    "category": "Adventure",
+    "operator_id": "frontieradventures",
+    "port": "juneau",
+    "images": [],
+    "source": "manual",
+    "last_updated": "2025-11-26",
+    "fh_item_id": "1063",
+    "tags": [
+      "alaska",
+      "tour",
+      "shorex"
+    ]
+  },
+  {
+    "slug": "tour-65",
+    "title": "Alaska Hiking Experience #65",
+    "description_short": "A breathtaking guided experience.",
+    "description_long": "Explore the wild landscapes of Alaska with expert guides, immersive activities, and unforgettable scenery.",
+    "duration": "6 hours",
+    "price_from": 159,
+    "category": "Cruise",
+    "operator_id": "alaskaexpeditions",
+    "port": "ketchikan",
+    "images": [],
+    "source": "manual",
+    "last_updated": "2025-11-26",
+    "fh_item_id": "1064",
+    "tags": [
+      "alaska",
+      "tour",
+      "shorex"
+    ]
+  },
+  {
+    "slug": "tour-66",
+    "title": "Alaska Kayak Experience #66",
+    "description_short": "A breathtaking guided experience.",
+    "description_long": "Explore the wild landscapes of Alaska with expert guides, immersive activities, and unforgettable scenery.",
+    "duration": "7 hours",
+    "price_from": 199,
+    "category": "Railway",
+    "operator_id": "glacierbaytours",
+    "port": "skagway",
+    "images": [],
+    "source": "manual",
+    "last_updated": "2025-11-26",
+    "fh_item_id": "1065",
+    "tags": [
+      "alaska",
+      "tour",
+      "shorex"
+    ]
+  },
+  {
+    "slug": "tour-67",
+    "title": "Alaska Adventure Experience #67",
+    "description_short": "A breathtaking guided experience.",
+    "description_long": "Explore the wild landscapes of Alaska with expert guides, immersive activities, and unforgettable scenery.",
+    "duration": "2 hours",
+    "price_from": 89,
+    "category": "Railway",
+    "operator_id": "frontieradventures",
+    "port": "skagway",
+    "images": [],
+    "source": "manual",
+    "last_updated": "2025-11-26",
+    "fh_item_id": "1066",
+    "tags": [
+      "alaska",
+      "tour",
+      "shorex"
+    ]
+  },
+  {
+    "slug": "tour-68",
+    "title": "Alaska Kayak Experience #68",
+    "description_short": "A breathtaking guided experience.",
+    "description_long": "Explore the wild landscapes of Alaska with expert guides, immersive activities, and unforgettable scenery.",
+    "duration": "2 hours",
+    "price_from": 129,
+    "category": "Glacier",
+    "operator_id": "alaskaexpeditions",
+    "port": "skagway",
+    "images": [],
+    "source": "manual",
+    "last_updated": "2025-11-26",
+    "fh_item_id": "1067",
+    "tags": [
+      "alaska",
+      "tour",
+      "shorex"
+    ]
+  },
+  {
+    "slug": "tour-69",
+    "title": "Alaska Cruise Experience #69",
+    "description_short": "A breathtaking guided experience.",
+    "description_long": "Explore the wild landscapes of Alaska with expert guides, immersive activities, and unforgettable scenery.",
+    "duration": "7 hours",
+    "price_from": 129,
+    "category": "Wildlife",
+    "operator_id": "alaskaexpeditions",
+    "port": "sitka",
+    "images": [],
+    "source": "manual",
+    "last_updated": "2025-11-26",
+    "fh_item_id": "1068",
+    "tags": [
+      "alaska",
+      "tour",
+      "shorex"
+    ]
+  },
+  {
+    "slug": "tour-70",
+    "title": "Alaska Kayak Experience #70",
+    "description_short": "A breathtaking guided experience.",
+    "description_long": "Explore the wild landscapes of Alaska with expert guides, immersive activities, and unforgettable scenery.",
+    "duration": "4 hours",
+    "price_from": 129,
+    "category": "Cruise",
+    "operator_id": "alaskaexpeditions",
+    "port": "ketchikan",
+    "images": [],
+    "source": "manual",
+    "last_updated": "2025-11-26",
+    "fh_item_id": "1069",
+    "tags": [
+      "alaska",
+      "tour",
+      "shorex"
+    ]
+  },
+  {
+    "slug": "tour-71",
+    "title": "Alaska Cruise Experience #71",
+    "description_short": "A breathtaking guided experience.",
+    "description_long": "Explore the wild landscapes of Alaska with expert guides, immersive activities, and unforgettable scenery.",
+    "duration": "4 hours",
+    "price_from": 349,
+    "category": "Glacier",
+    "operator_id": "frontieradventures",
+    "port": "ketchikan",
+    "images": [],
+    "source": "manual",
+    "last_updated": "2025-11-26",
+    "fh_item_id": "1070",
+    "tags": [
+      "alaska",
+      "tour",
+      "shorex"
+    ]
+  },
+  {
+    "slug": "tour-72",
+    "title": "Alaska Hiking Experience #72",
+    "description_short": "A breathtaking guided experience.",
+    "description_long": "Explore the wild landscapes of Alaska with expert guides, immersive activities, and unforgettable scenery.",
+    "duration": "7 hours",
+    "price_from": 199,
+    "category": "Hiking",
+    "operator_id": "alaskaexpeditions",
+    "port": "skagway",
+    "images": [],
+    "source": "manual",
+    "last_updated": "2025-11-26",
+    "fh_item_id": "1071",
+    "tags": [
+      "alaska",
+      "tour",
+      "shorex"
+    ]
+  },
+  {
+    "slug": "tour-73",
+    "title": "Alaska Wildlife Experience #73",
+    "description_short": "A breathtaking guided experience.",
+    "description_long": "Explore the wild landscapes of Alaska with expert guides, immersive activities, and unforgettable scenery.",
+    "duration": "8 hours",
+    "price_from": 199,
+    "category": "Adventure",
+    "operator_id": "glacierbaytours",
+    "port": "juneau",
+    "images": [],
+    "source": "manual",
+    "last_updated": "2025-11-26",
+    "fh_item_id": "1072",
+    "tags": [
+      "alaska",
+      "tour",
+      "shorex"
+    ]
+  },
+  {
+    "slug": "tour-74",
+    "title": "Alaska Adventure Experience #74",
+    "description_short": "A breathtaking guided experience.",
+    "description_long": "Explore the wild landscapes of Alaska with expert guides, immersive activities, and unforgettable scenery.",
+    "duration": "6 hours",
+    "price_from": 299,
+    "category": "Railway",
+    "operator_id": "frontieradventures",
+    "port": "skagway",
+    "images": [],
+    "source": "manual",
+    "last_updated": "2025-11-26",
+    "fh_item_id": "1073",
+    "tags": [
+      "alaska",
+      "tour",
+      "shorex"
+    ]
+  },
+  {
+    "slug": "tour-75",
+    "title": "Alaska Glacier Experience #75",
+    "description_short": "A breathtaking guided experience.",
+    "description_long": "Explore the wild landscapes of Alaska with expert guides, immersive activities, and unforgettable scenery.",
+    "duration": "2 hours",
+    "price_from": 199,
+    "category": "Hiking",
+    "operator_id": "frontieradventures",
+    "port": "juneau",
+    "images": [],
+    "source": "manual",
+    "last_updated": "2025-11-26",
+    "fh_item_id": "1074",
+    "tags": [
+      "alaska",
+      "tour",
+      "shorex"
+    ]
+  },
+  {
+    "slug": "tour-76",
+    "title": "Alaska Hiking Experience #76",
+    "description_short": "A breathtaking guided experience.",
+    "description_long": "Explore the wild landscapes of Alaska with expert guides, immersive activities, and unforgettable scenery.",
+    "duration": "6 hours",
+    "price_from": 299,
+    "category": "Adventure",
+    "operator_id": "frontieradventures",
+    "port": "ketchikan",
+    "images": [],
+    "source": "manual",
+    "last_updated": "2025-11-26",
+    "fh_item_id": "1075",
+    "tags": [
+      "alaska",
+      "tour",
+      "shorex"
+    ]
+  },
+  {
+    "slug": "tour-77",
+    "title": "Alaska Railway Experience #77",
+    "description_short": "A breathtaking guided experience.",
+    "description_long": "Explore the wild landscapes of Alaska with expert guides, immersive activities, and unforgettable scenery.",
+    "duration": "7 hours",
+    "price_from": 299,
+    "category": "Glacier",
+    "operator_id": "glacierbaytours",
+    "port": "juneau",
+    "images": [],
+    "source": "manual",
+    "last_updated": "2025-11-26",
+    "fh_item_id": "1076",
+    "tags": [
+      "alaska",
+      "tour",
+      "shorex"
+    ]
+  },
+  {
+    "slug": "tour-78",
+    "title": "Alaska Glacier Experience #78",
+    "description_short": "A breathtaking guided experience.",
+    "description_long": "Explore the wild landscapes of Alaska with expert guides, immersive activities, and unforgettable scenery.",
+    "duration": "4 hours",
+    "price_from": 89,
+    "category": "Wildlife",
+    "operator_id": "frontieradventures",
+    "port": "ketchikan",
+    "images": [],
+    "source": "manual",
+    "last_updated": "2025-11-26",
+    "fh_item_id": "1077",
+    "tags": [
+      "alaska",
+      "tour",
+      "shorex"
+    ]
+  },
+  {
+    "slug": "tour-79",
+    "title": "Alaska Railway Experience #79",
+    "description_short": "A breathtaking guided experience.",
+    "description_long": "Explore the wild landscapes of Alaska with expert guides, immersive activities, and unforgettable scenery.",
+    "duration": "8 hours",
+    "price_from": 249,
+    "category": "Cruise",
+    "operator_id": "frontieradventures",
+    "port": "skagway",
+    "images": [],
+    "source": "manual",
+    "last_updated": "2025-11-26",
+    "fh_item_id": "1078",
+    "tags": [
+      "alaska",
+      "tour",
+      "shorex"
+    ]
+  },
+  {
+    "slug": "tour-80",
+    "title": "Alaska Adventure Experience #80",
+    "description_short": "A breathtaking guided experience.",
+    "description_long": "Explore the wild landscapes of Alaska with expert guides, immersive activities, and unforgettable scenery.",
+    "duration": "3 hours",
+    "price_from": 89,
+    "category": "Cruise",
+    "operator_id": "frontieradventures",
+    "port": "skagway",
+    "images": [],
+    "source": "manual",
+    "last_updated": "2025-11-26",
+    "fh_item_id": "1079",
+    "tags": [
+      "alaska",
+      "tour",
+      "shorex"
+    ]
+  }
+]

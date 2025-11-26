@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["file:///home/ewrewr12/thanksgiving/AlaskaOS_FULL_PROJECT/app/globals.css"],"sourcesContent":["html, body {\n  margin: 0;\n  padding: 0;\n  font-family: sans-serif;\n}\n"],"names":[],"mappings":"AAAA"}}]
+}

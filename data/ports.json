@@ -1,0 +1,30 @@
+[
+  {
+    "id": "juneau",
+    "name": "Juneau",
+    "description": "Capital city gateway",
+    "tagline": "Whales, glaciers, and pure Alaska.",
+    "image": ""
+  },
+  {
+    "id": "skagway",
+    "name": "Skagway",
+    "description": "Gold rush frontier",
+    "tagline": "Trains, trails, and towering peaks.",
+    "image": ""
+  },
+  {
+    "id": "ketchikan",
+    "name": "Ketchikan",
+    "description": "Rainforest coast",
+    "tagline": "Totem poles and misty fjords.",
+    "image": ""
+  },
+  {
+    "id": "sitka",
+    "name": "Sitka",
+    "description": "Island wilderness",
+    "tagline": "Eagles, volcanoes, and ocean air.",
+    "image": ""
+  }
+]

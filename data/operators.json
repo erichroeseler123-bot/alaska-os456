@@ -1,0 +1,36 @@
+[
+  {
+    "id": "alaskaexpeditions",
+    "name": "Alaska Expeditions",
+    "description": "Local guides offering glacier & wildlife trips.",
+    "ports": [
+      "juneau",
+      "skagway"
+    ],
+    "fh_shortname": "alaskaexpeditions",
+    "embed_base_url": "https://fareharbor.com/alaskaexpeditions/items",
+    "contact_phone": "907-555-0182"
+  },
+  {
+    "id": "glacierbaytours",
+    "name": "Glacier Bay Tours",
+    "description": "Premium whale watching & fjord cruises.",
+    "ports": [
+      "juneau"
+    ],
+    "fh_shortname": "glacierbay",
+    "embed_base_url": "https://fareharbor.com/glacierbay/items",
+    "contact_phone": "907-555-2299"
+  },
+  {
+    "id": "frontieradventures",
+    "name": "Frontier Adventures",
+    "description": "Historic railway & gold trail excursions.",
+    "ports": [
+      "skagway"
+    ],
+    "fh_shortname": "frontier",
+    "embed_base_url": "https://fareharbor.com/frontier/items",
+    "contact_phone": "907-555-7711"
+  }
+]
